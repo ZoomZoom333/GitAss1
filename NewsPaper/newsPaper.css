@@ -1,0 +1,87 @@
+body {
+	border-style: solid;
+	border-size: 7px;
+	font-family: 'times-new-roman';
+}
+h1 {
+	text-align: center;
+    text-transform: uppercase;
+	font-family: 'playfair-display';
+	font-size: 40px;
+}
+h2 {
+	text-align: right;
+	text-decoration: italic;
+	text-transform: capitalize;
+}
+
+#TopBtn{
+	position: fixed;
+	bottom: 30px;
+	right: 30px; 
+
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+}
+
+p {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+
+	-webkit-column-rule-style: solid;
+	-moz-colummn-rule-style: solid;
+
+
+}
+img {
+	float: left;
+	margin: 5 5 10px 10px;
+	padding: 5px;
+
+}
+.button {
+	text-decoration: italic;
+	text-align: center;
+	width: 200px;
+	border: black solid;
+	border-radius: 10px;
+	background: gray;
+    padding: 1px;
+    position: fixed;
+    bottom: 10px;
+    right: 80px;
+
+    }
+
+    .spot{
+    	bottom: 10px;
+    	left: 80px;
+    }
+div a {
+	text-decoration: none;
+}
+nav {
+	text-align: center;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+nav a {
+
+	padding: 10px 27px;
+	text-decoration: none;
+	color: black;
+}
+span {
+	font-family: "times-new-roman";
+	font-size: 35px;
+	text-transform: italic;
+}
+}
+
